@@ -95,7 +95,7 @@ export default function Signup() {
       </div>
       {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
       <Button
-        text="Sign up"
+        text="Submit"
         to={isValidEmail ? "/phone" : "#"}
         onClick={handleSignup}
       />
